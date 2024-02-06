@@ -4,7 +4,7 @@
   "description": "A profile for James Hunter (@jmshtr)",
   "main": "profile.js",
   "bin": {
-    "jmshtr": "profile.js"
+    "jmshtr": "./profile.js"
   },
   "repository": {
     "type": "git",
