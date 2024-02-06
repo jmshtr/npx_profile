@@ -1,0 +1,44 @@
+{
+  "name": "jmshtr",
+  "version": "1.0.0",
+  "description": "A profile for James Hunter (@jmshtr)",
+  "main": "profile.js",
+  "bin": {
+    "jmshtr": "profile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmshtr/npx_profile.git"
+  },
+  "scripts": {
+    "test": "node profile.js",
+    "pub": "npm version major & npm publish"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.5.0",
+    "inquirer": "^7.3.2",
+    "open": "^7.0.4",
+    "ora": "^5.1.0",
+    "request": "^2.88.2"
+  },
+  "keywords": [
+    "profile",
+    "npm",
+    "npm profile",
+    "npx",
+    "npx profile",
+    "business profile"
+  ],
+  "author": "James Hunter <jmshtr@proton.me> (https://jmshtr.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmshtr/npx_profile/issues"
+  },
+  "homepage": "https://github.com/jmshtr/npx_profile#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
