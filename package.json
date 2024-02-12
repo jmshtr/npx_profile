@@ -1,6 +1,6 @@
 {
   "name": "jmshtr",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A profile for James Hunter (@jmshtr)",
   "main": "profile.js",
   "bin": {
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "node profile.js",
-    "pub": "npm version major & npm publish"
+    "pub": "npm publish"
   },
   "dependencies": {
     "boxen": "^4.2.0",
@@ -33,7 +33,7 @@
     "business profile"
   ],
   "author": "James Hunter <jmshtr@proton.me> (https://jmshtr.github.io)",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/jmshtr/npx_profile/issues"
   },
