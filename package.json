@@ -1,10 +1,10 @@
 {
   "name": "jmshtr",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A profile for James Hunter (@jmshtr)",
   "main": "profile.js",
   "bin": {
-    "jmshtr": "./profile.js"
+    "jmshtr": "profile.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "inquirer": "^7.3.2",
     "open": "^7.0.4",
     "ora": "^5.1.0",
-    "request": "^2.88.2"
+    "@cypress/request": "^3.0.1"
   },
   "keywords": [
     "profile",
@@ -37,7 +37,7 @@
   "bugs": {
     "url": "https://github.com/jmshtr/npx_profile/issues"
   },
-  "homepage": "https://github.com/jmshtr/npx_profile#readme",
+  "homepage": "https://github.com/jmshtr/npx_profile",
   "devDependencies": {
     "nodemon": "^3.0.3"
   }
