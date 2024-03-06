@@ -7,3 +7,9 @@ updates:
     # Check the npm registry for updates every week
     schedule:
       interval: "weekly"
+    # Raise all npm pull requests with reviewers
+    reviewers:
+      - "jmshtr"
+    # Raise all npm pull requests with an assignee
+    assignees:
+      - "jmshtr"
