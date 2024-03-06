@@ -1,6 +1,6 @@
 {
   "name": "jmshtr",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A profile for James Hunter (@jmshtr)",
   "main": "profile.js",
   "bin": {
@@ -15,14 +15,14 @@
     "pub": "npm publish"
   },
   "dependencies": {
+    "@cypress/request": "^3.0.1",
     "boxen": "^4.2.0",
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
     "cli-spinners": "^2.5.0",
     "inquirer": "^7.3.2",
     "open": "^7.0.4",
-    "ora": "^5.1.0",
-    "@cypress/request": "^3.0.1"
+    "ora": "^5.1.0"
   },
   "keywords": [
     "profile",
@@ -33,7 +33,7 @@
     "business profile"
   ],
   "author": "James Hunter <jmshtr@proton.me> (https://jmshtr.github.io)",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jmshtr/npx_profile/issues"
   },
